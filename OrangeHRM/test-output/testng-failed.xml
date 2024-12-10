@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="BrowserIntialization" value="chrome"/>
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.OrangeHRM.RunnerScript.Admin.AdminSmokeTest">
+        <methods>
+          <include name="Enteradmn"/>
+          <include name="CloseApplication"/>
+          <include name="BrowserSetup"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.RunnerScript.Admin.AdminSmokeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
